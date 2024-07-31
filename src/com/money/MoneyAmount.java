@@ -1,8 +1,20 @@
 package com.money;
+import java.util.Currency;
+import java.math.BigDecimal;
+
 public class MoneyAmount {
-	public static void main(String[] args) {
-		
+	BigDecimal amount;
+	Currency cur;
+	
+	public MoneyAmount(BigDecimal amount, Currency cur){
+		this.amount = amount;
+		this.cur = cur;
 	}
+	public String toString() {
+		
+		return "testing";
+	}
+
 	
 }
 
