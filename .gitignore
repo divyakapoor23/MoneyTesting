@@ -1,0 +1,11 @@
+
+
+*.class
+src/draft/
+src/secrets/
+test/draft/
+test/secrets/
+.project
+.eclipse/
+.settings/
+.classpath
