@@ -12,7 +12,7 @@ public class MoneyAmount {
 	}
 	public String toString() {
 		
-		return "testing";
+		return cur.getSymbol() + amount;
 	}
 
 	
